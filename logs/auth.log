@@ -1,0 +1,1128 @@
+[2018-09-26 17:12:03 -0500] [7544] [DEBUG] Current configuration:
+  config: None
+  bind: ['unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  chdir: /home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1001
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: manager
+  default_proc_name: Auth_Server.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f437c2e2378>
+  on_reload: <function OnReload.on_reload at 0x7f437c2e2510>
+  when_ready: <function WhenReady.when_ready at 0x7f437c2e26a8>
+  pre_fork: <function Prefork.pre_fork at 0x7f437c2e2840>
+  post_fork: <function Postfork.post_fork at 0x7f437c2e29d8>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f437c2e2b70>
+  worker_int: <function WorkerInt.worker_int at 0x7f437c2e2d08>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f437c2e2ea0>
+  pre_exec: <function PreExec.pre_exec at 0x7f437c2e80d0>
+  pre_request: <function PreRequest.pre_request at 0x7f437c2e8268>
+  post_request: <function PostRequest.post_request at 0x7f437c2e8378>
+  child_exit: <function ChildExit.child_exit at 0x7f437c2e8510>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f437c2e86a8>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f437c2e8840>
+  on_exit: <function OnExit.on_exit at 0x7f437c2e89d8>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-09-26 17:12:03 -0500] [7544] [INFO] Starting gunicorn 19.7.1
+[2018-09-26 17:12:03 -0500] [7544] [DEBUG] Arbiter booted
+[2018-09-26 17:12:03 -0500] [7544] [INFO] Listening at: unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock (7544)
+[2018-09-26 17:12:03 -0500] [7544] [INFO] Using worker: sync
+[2018-09-26 17:12:03 -0500] [7561] [INFO] Booting worker with pid: 7561
+[2018-09-26 17:12:03 -0500] [7565] [INFO] Booting worker with pid: 7565
+[2018-09-26 17:12:03 -0500] [7572] [INFO] Booting worker with pid: 7572
+[2018-09-26 17:12:04 -0500] [7544] [DEBUG] 3 workers
+[2018-09-26 22:14:53 +0000] [7572] [DEBUG] GET /
+Not Found: /
+[2018-09-26 22:14:56 +0000] [7572] [DEBUG] GET /admin
+[2018-09-26 22:14:56 +0000] [7572] [DEBUG] GET /admin/
+Session data corrupted
+[2018-09-26 22:14:56 +0000] [7565] [DEBUG] GET /admin/login/
+Session data corrupted
+[2018-09-26 22:15:00 +0000] [7565] [DEBUG] GET /admin/login/
+Session data corrupted
+[2018-09-26 22:15:16 +0000] [7561] [DEBUG] GET /admin/login/
+Session data corrupted
+[2018-09-26 18:21:28 -0500] [7544] [INFO] Handling signal: term
+[2018-09-26 23:21:28 +0000] [7561] [INFO] Worker exiting (pid: 7561)
+[2018-09-26 23:21:28 +0000] [7565] [INFO] Worker exiting (pid: 7565)
+[2018-09-26 23:21:28 +0000] [7572] [INFO] Worker exiting (pid: 7572)
+[2018-09-26 18:21:28 -0500] [7544] [INFO] Shutting down: Master
+[2018-09-26 21:19:44 -0500] [1144] [DEBUG] Current configuration:
+  config: None
+  bind: ['unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  chdir: /home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1001
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: manager
+  default_proc_name: Auth_Server.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fd33086a378>
+  on_reload: <function OnReload.on_reload at 0x7fd33086a510>
+  when_ready: <function WhenReady.when_ready at 0x7fd33086a6a8>
+  pre_fork: <function Prefork.pre_fork at 0x7fd33086a840>
+  post_fork: <function Postfork.post_fork at 0x7fd33086a9d8>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fd33086ab70>
+  worker_int: <function WorkerInt.worker_int at 0x7fd33086ad08>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fd33086aea0>
+  pre_exec: <function PreExec.pre_exec at 0x7fd3308700d0>
+  pre_request: <function PreRequest.pre_request at 0x7fd330870268>
+  post_request: <function PostRequest.post_request at 0x7fd330870378>
+  child_exit: <function ChildExit.child_exit at 0x7fd330870510>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fd3308706a8>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fd330870840>
+  on_exit: <function OnExit.on_exit at 0x7fd3308709d8>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-09-26 21:19:44 -0500] [1144] [INFO] Starting gunicorn 19.7.1
+[2018-09-26 21:19:44 -0500] [1144] [DEBUG] Arbiter booted
+[2018-09-26 21:19:44 -0500] [1144] [INFO] Listening at: unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock (1144)
+[2018-09-26 21:19:44 -0500] [1144] [INFO] Using worker: sync
+[2018-09-26 21:19:44 -0500] [1274] [INFO] Booting worker with pid: 1274
+[2018-09-26 21:19:44 -0500] [1275] [INFO] Booting worker with pid: 1275
+[2018-09-26 21:19:44 -0500] [1276] [INFO] Booting worker with pid: 1276
+[2018-09-26 21:19:44 -0500] [1144] [DEBUG] 3 workers
+[2018-09-27 05:36:47 -0500] [1144] [CRITICAL] WORKER TIMEOUT (pid:1274)
+[2018-09-27 05:36:47 -0500] [1144] [CRITICAL] WORKER TIMEOUT (pid:1275)
+[2018-09-27 05:36:47 -0500] [1144] [CRITICAL] WORKER TIMEOUT (pid:1276)
+[2018-09-27 10:36:47 +0000] [1274] [INFO] Worker exiting (pid: 1274)
+[2018-09-27 10:36:47 +0000] [1275] [INFO] Worker exiting (pid: 1275)
+[2018-09-27 10:36:47 +0000] [1276] [INFO] Worker exiting (pid: 1276)
+[2018-09-27 05:36:47 -0500] [5445] [INFO] Booting worker with pid: 5445
+[2018-09-27 05:36:47 -0500] [1144] [DEBUG] 1 workers
+[2018-09-27 05:36:47 -0500] [5450] [INFO] Booting worker with pid: 5450
+[2018-09-27 05:36:47 -0500] [5452] [INFO] Booting worker with pid: 5452
+[2018-09-27 05:36:47 -0500] [1144] [DEBUG] 3 workers
+[2018-09-27 06:51:23 -0500] [1144] [INFO] Handling signal: term
+[2018-09-27 11:51:24 +0000] [5445] [INFO] Worker exiting (pid: 5445)
+[2018-09-27 11:51:24 +0000] [5450] [INFO] Worker exiting (pid: 5450)
+[2018-09-27 11:51:24 +0000] [5452] [INFO] Worker exiting (pid: 5452)
+[2018-09-27 06:51:24 -0500] [1144] [INFO] Shutting down: Master
+[2018-09-27 06:53:29 -0500] [1370] [DEBUG] Current configuration:
+  config: None
+  bind: ['unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  chdir: /home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1001
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: manager
+  default_proc_name: Auth_Server.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f1e4fccb378>
+  on_reload: <function OnReload.on_reload at 0x7f1e4fccb510>
+  when_ready: <function WhenReady.when_ready at 0x7f1e4fccb6a8>
+  pre_fork: <function Prefork.pre_fork at 0x7f1e4fccb840>
+  post_fork: <function Postfork.post_fork at 0x7f1e4fccb9d8>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f1e4fccbb70>
+  worker_int: <function WorkerInt.worker_int at 0x7f1e4fccbd08>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f1e4fccbea0>
+  pre_exec: <function PreExec.pre_exec at 0x7f1e4fcd10d0>
+  pre_request: <function PreRequest.pre_request at 0x7f1e4fcd1268>
+  post_request: <function PostRequest.post_request at 0x7f1e4fcd1378>
+  child_exit: <function ChildExit.child_exit at 0x7f1e4fcd1510>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f1e4fcd16a8>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f1e4fcd1840>
+  on_exit: <function OnExit.on_exit at 0x7f1e4fcd19d8>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-09-27 06:53:29 -0500] [1370] [INFO] Starting gunicorn 19.7.1
+[2018-09-27 06:53:29 -0500] [1370] [DEBUG] Arbiter booted
+[2018-09-27 06:53:29 -0500] [1370] [INFO] Listening at: unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock (1370)
+[2018-09-27 06:53:29 -0500] [1370] [INFO] Using worker: sync
+[2018-09-27 06:53:29 -0500] [1391] [INFO] Booting worker with pid: 1391
+[2018-09-27 06:53:30 -0500] [1392] [INFO] Booting worker with pid: 1392
+[2018-09-27 06:53:30 -0500] [1393] [INFO] Booting worker with pid: 1393
+[2018-09-27 06:53:30 -0500] [1370] [DEBUG] 3 workers
+[2018-09-27 07:32:19 -0500] [1370] [INFO] Handling signal: term
+[2018-09-27 12:32:19 +0000] [1392] [INFO] Worker exiting (pid: 1392)
+[2018-09-27 12:32:19 +0000] [1393] [INFO] Worker exiting (pid: 1393)
+[2018-09-27 12:32:19 +0000] [1391] [INFO] Worker exiting (pid: 1391)
+[2018-09-27 07:32:19 -0500] [1370] [INFO] Shutting down: Master
+[2018-09-27 07:33:43 -0500] [1323] [DEBUG] Current configuration:
+  config: None
+  bind: ['unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  chdir: /home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1001
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: manager
+  default_proc_name: Auth_Server.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fd22e31d378>
+  on_reload: <function OnReload.on_reload at 0x7fd22e31d510>
+  when_ready: <function WhenReady.when_ready at 0x7fd22e31d6a8>
+  pre_fork: <function Prefork.pre_fork at 0x7fd22e31d840>
+  post_fork: <function Postfork.post_fork at 0x7fd22e31d9d8>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fd22e31db70>
+  worker_int: <function WorkerInt.worker_int at 0x7fd22e31dd08>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fd22e31dea0>
+  pre_exec: <function PreExec.pre_exec at 0x7fd22e3230d0>
+  pre_request: <function PreRequest.pre_request at 0x7fd22e323268>
+  post_request: <function PostRequest.post_request at 0x7fd22e323378>
+  child_exit: <function ChildExit.child_exit at 0x7fd22e323510>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fd22e3236a8>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fd22e323840>
+  on_exit: <function OnExit.on_exit at 0x7fd22e3239d8>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-09-27 07:33:43 -0500] [1323] [INFO] Starting gunicorn 19.7.1
+[2018-09-27 07:33:43 -0500] [1323] [DEBUG] Arbiter booted
+[2018-09-27 07:33:43 -0500] [1323] [INFO] Listening at: unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock (1323)
+[2018-09-27 07:33:43 -0500] [1323] [INFO] Using worker: sync
+[2018-09-27 07:33:43 -0500] [1356] [INFO] Booting worker with pid: 1356
+[2018-09-27 07:33:43 -0500] [1358] [INFO] Booting worker with pid: 1358
+[2018-09-27 07:33:43 -0500] [1359] [INFO] Booting worker with pid: 1359
+[2018-09-27 07:33:43 -0500] [1323] [DEBUG] 3 workers
+[2018-09-27 09:05:37 -0500] [1323] [CRITICAL] WORKER TIMEOUT (pid:1356)
+[2018-09-27 14:05:37 +0000] [1356] [INFO] Worker exiting (pid: 1356)
+[2018-09-27 09:05:38 -0500] [5005] [INFO] Booting worker with pid: 5005
+[2018-09-27 12:20:19 -0500] [1323] [INFO] Handling signal: term
+[2018-09-27 17:20:20 +0000] [5005] [INFO] Worker exiting (pid: 5005)
+[2018-09-27 17:20:21 +0000] [1359] [INFO] Worker exiting (pid: 1359)
+[2018-09-27 17:20:22 +0000] [1358] [INFO] Worker exiting (pid: 1358)
+[2018-09-27 12:22:38 -0500] [1302] [DEBUG] Current configuration:
+  config: None
+  bind: ['unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  chdir: /home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1001
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: manager
+  default_proc_name: Auth_Server.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7fab9343b378>
+  on_reload: <function OnReload.on_reload at 0x7fab9343b510>
+  when_ready: <function WhenReady.when_ready at 0x7fab9343b6a8>
+  pre_fork: <function Prefork.pre_fork at 0x7fab9343b840>
+  post_fork: <function Postfork.post_fork at 0x7fab9343b9d8>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7fab9343bb70>
+  worker_int: <function WorkerInt.worker_int at 0x7fab9343bd08>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7fab9343bea0>
+  pre_exec: <function PreExec.pre_exec at 0x7fab934410d0>
+  pre_request: <function PreRequest.pre_request at 0x7fab93441268>
+  post_request: <function PostRequest.post_request at 0x7fab93441378>
+  child_exit: <function ChildExit.child_exit at 0x7fab93441510>
+  worker_exit: <function WorkerExit.worker_exit at 0x7fab934416a8>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7fab93441840>
+  on_exit: <function OnExit.on_exit at 0x7fab934419d8>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-09-27 12:22:38 -0500] [1302] [INFO] Starting gunicorn 19.7.1
+[2018-09-27 12:22:38 -0500] [1302] [DEBUG] Arbiter booted
+[2018-09-27 12:22:38 -0500] [1302] [INFO] Listening at: unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock (1302)
+[2018-09-27 12:22:38 -0500] [1302] [INFO] Using worker: sync
+[2018-09-27 12:22:38 -0500] [1344] [INFO] Booting worker with pid: 1344
+[2018-09-27 12:22:38 -0500] [1345] [INFO] Booting worker with pid: 1345
+[2018-09-27 12:22:38 -0500] [1346] [INFO] Booting worker with pid: 1346
+[2018-09-27 12:22:38 -0500] [1302] [DEBUG] 3 workers
+[2018-09-27 15:06:36 -0500] [1302] [CRITICAL] WORKER TIMEOUT (pid:1344)
+[2018-09-27 15:06:36 -0500] [1302] [CRITICAL] WORKER TIMEOUT (pid:1345)
+[2018-09-27 15:06:36 -0500] [1302] [CRITICAL] WORKER TIMEOUT (pid:1346)
+[2018-09-27 20:06:36 +0000] [1344] [INFO] Worker exiting (pid: 1344)
+[2018-09-27 20:06:36 +0000] [1345] [INFO] Worker exiting (pid: 1345)
+[2018-09-27 20:06:36 +0000] [1346] [INFO] Worker exiting (pid: 1346)
+[2018-09-27 15:06:36 -0500] [6033] [INFO] Booting worker with pid: 6033
+[2018-09-27 15:06:36 -0500] [1302] [DEBUG] 1 workers
+[2018-09-27 15:06:36 -0500] [6034] [INFO] Booting worker with pid: 6034
+[2018-09-27 15:06:37 -0500] [6036] [INFO] Booting worker with pid: 6036
+[2018-09-27 15:06:37 -0500] [1302] [DEBUG] 3 workers
+[2018-09-27 15:58:30 -0500] [1302] [CRITICAL] WORKER TIMEOUT (pid:6033)
+[2018-09-27 15:58:30 -0500] [1302] [CRITICAL] WORKER TIMEOUT (pid:6034)
+[2018-09-27 15:58:30 -0500] [1302] [CRITICAL] WORKER TIMEOUT (pid:6036)
+[2018-09-27 20:58:30 +0000] [6033] [INFO] Worker exiting (pid: 6033)
+[2018-09-27 20:58:30 +0000] [6036] [INFO] Worker exiting (pid: 6036)
+[2018-09-27 20:58:30 +0000] [6034] [INFO] Worker exiting (pid: 6034)
+[2018-09-27 15:58:30 -0500] [6749] [INFO] Booting worker with pid: 6749
+[2018-09-27 15:58:30 -0500] [1302] [DEBUG] 1 workers
+[2018-09-27 15:58:30 -0500] [6751] [INFO] Booting worker with pid: 6751
+[2018-09-27 15:58:30 -0500] [6753] [INFO] Booting worker with pid: 6753
+[2018-09-27 15:58:30 -0500] [1302] [DEBUG] 3 workers
+[2018-09-27 20:01:48 -0500] [1302] [CRITICAL] WORKER TIMEOUT (pid:6749)
+[2018-09-27 20:01:48 -0500] [1302] [CRITICAL] WORKER TIMEOUT (pid:6751)
+[2018-09-27 20:01:48 -0500] [1302] [CRITICAL] WORKER TIMEOUT (pid:6753)
+[2018-09-28 01:01:48 +0000] [6749] [INFO] Worker exiting (pid: 6749)
+[2018-09-28 01:01:48 +0000] [6751] [INFO] Worker exiting (pid: 6751)
+[2018-09-28 01:01:48 +0000] [6753] [INFO] Worker exiting (pid: 6753)
+[2018-09-27 20:01:49 -0500] [8254] [INFO] Booting worker with pid: 8254
+[2018-09-27 20:01:49 -0500] [1302] [DEBUG] 1 workers
+[2018-09-27 20:01:49 -0500] [8255] [INFO] Booting worker with pid: 8255
+[2018-09-27 20:01:49 -0500] [8256] [INFO] Booting worker with pid: 8256
+[2018-09-27 20:01:49 -0500] [1302] [DEBUG] 3 workers
+[2018-09-27 20:04:25 -0500] [1302] [INFO] Handling signal: term
+[2018-09-28 01:04:25 +0000] [8255] [INFO] Worker exiting (pid: 8255)
+[2018-09-28 01:04:25 +0000] [8254] [INFO] Worker exiting (pid: 8254)
+[2018-09-28 01:04:25 +0000] [8256] [INFO] Worker exiting (pid: 8256)
+[2018-09-27 20:04:25 -0500] [1302] [INFO] Shutting down: Master
+[2018-09-27 20:05:37 -0500] [1169] [DEBUG] Current configuration:
+  config: None
+  bind: ['unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  chdir: /home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1001
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: manager
+  default_proc_name: Auth_Server.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f95b472c378>
+  on_reload: <function OnReload.on_reload at 0x7f95b472c510>
+  when_ready: <function WhenReady.when_ready at 0x7f95b472c6a8>
+  pre_fork: <function Prefork.pre_fork at 0x7f95b472c840>
+  post_fork: <function Postfork.post_fork at 0x7f95b472c9d8>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f95b472cb70>
+  worker_int: <function WorkerInt.worker_int at 0x7f95b472cd08>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f95b472cea0>
+  pre_exec: <function PreExec.pre_exec at 0x7f95b47320d0>
+  pre_request: <function PreRequest.pre_request at 0x7f95b4732268>
+  post_request: <function PostRequest.post_request at 0x7f95b4732378>
+  child_exit: <function ChildExit.child_exit at 0x7f95b4732510>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f95b47326a8>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f95b4732840>
+  on_exit: <function OnExit.on_exit at 0x7f95b47329d8>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-09-27 20:05:37 -0500] [1169] [INFO] Starting gunicorn 19.7.1
+[2018-09-27 20:05:37 -0500] [1169] [DEBUG] Arbiter booted
+[2018-09-27 20:05:37 -0500] [1169] [INFO] Listening at: unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock (1169)
+[2018-09-27 20:05:37 -0500] [1169] [INFO] Using worker: sync
+[2018-09-27 20:05:37 -0500] [1283] [INFO] Booting worker with pid: 1283
+[2018-09-27 20:05:37 -0500] [1284] [INFO] Booting worker with pid: 1284
+[2018-09-27 20:05:37 -0500] [1287] [INFO] Booting worker with pid: 1287
+[2018-09-27 20:05:37 -0500] [1169] [DEBUG] 3 workers
+[2018-09-27 21:24:52 -0500] [1169] [INFO] Handling signal: term
+[2018-09-28 02:24:52 +0000] [1284] [INFO] Worker exiting (pid: 1284)
+[2018-09-28 02:24:52 +0000] [1287] [INFO] Worker exiting (pid: 1287)
+[2018-09-28 02:24:52 +0000] [1283] [INFO] Worker exiting (pid: 1283)
+[2018-09-27 21:24:52 -0500] [1169] [INFO] Shutting down: Master
+[2018-09-28 05:37:19 -0500] [1151] [DEBUG] Current configuration:
+  config: None
+  bind: ['unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  chdir: /home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1001
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: manager
+  default_proc_name: Auth_Server.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f3b6af2e378>
+  on_reload: <function OnReload.on_reload at 0x7f3b6af2e510>
+  when_ready: <function WhenReady.when_ready at 0x7f3b6af2e6a8>
+  pre_fork: <function Prefork.pre_fork at 0x7f3b6af2e840>
+  post_fork: <function Postfork.post_fork at 0x7f3b6af2e9d8>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f3b6af2eb70>
+  worker_int: <function WorkerInt.worker_int at 0x7f3b6af2ed08>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f3b6af2eea0>
+  pre_exec: <function PreExec.pre_exec at 0x7f3b6af340d0>
+  pre_request: <function PreRequest.pre_request at 0x7f3b6af34268>
+  post_request: <function PostRequest.post_request at 0x7f3b6af34378>
+  child_exit: <function ChildExit.child_exit at 0x7f3b6af34510>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f3b6af346a8>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f3b6af34840>
+  on_exit: <function OnExit.on_exit at 0x7f3b6af349d8>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-09-28 05:37:19 -0500] [1151] [INFO] Starting gunicorn 19.7.1
+[2018-09-28 05:37:19 -0500] [1151] [DEBUG] Arbiter booted
+[2018-09-28 05:37:19 -0500] [1151] [INFO] Listening at: unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock (1151)
+[2018-09-28 05:37:19 -0500] [1151] [INFO] Using worker: sync
+[2018-09-28 05:37:19 -0500] [1198] [INFO] Booting worker with pid: 1198
+[2018-09-28 05:37:19 -0500] [1199] [INFO] Booting worker with pid: 1199
+[2018-09-28 05:37:19 -0500] [1203] [INFO] Booting worker with pid: 1203
+[2018-09-28 05:37:19 -0500] [1151] [DEBUG] 3 workers
+[2018-09-28 05:40:56 -0500] [1151] [CRITICAL] WORKER TIMEOUT (pid:1198)
+[2018-09-28 05:40:56 -0500] [1151] [CRITICAL] WORKER TIMEOUT (pid:1199)
+[2018-09-28 05:40:56 -0500] [1151] [CRITICAL] WORKER TIMEOUT (pid:1203)
+[2018-09-28 10:40:56 +0000] [1198] [INFO] Worker exiting (pid: 1198)
+[2018-09-28 10:40:56 +0000] [1199] [INFO] Worker exiting (pid: 1199)
+[2018-09-28 10:40:56 +0000] [1203] [INFO] Worker exiting (pid: 1203)
+[2018-09-28 05:40:56 -0500] [2561] [INFO] Booting worker with pid: 2561
+[2018-09-28 05:40:56 -0500] [2586] [INFO] Booting worker with pid: 2586
+[2018-09-28 05:40:56 -0500] [2605] [INFO] Booting worker with pid: 2605
+[2018-09-28 11:14:04 -0500] [1151] [CRITICAL] WORKER TIMEOUT (pid:2561)
+[2018-09-28 11:14:04 -0500] [1151] [CRITICAL] WORKER TIMEOUT (pid:2586)
+[2018-09-28 11:14:04 -0500] [1151] [CRITICAL] WORKER TIMEOUT (pid:2605)
+[2018-09-28 16:14:04 +0000] [2586] [INFO] Worker exiting (pid: 2586)
+[2018-09-28 16:14:04 +0000] [2561] [INFO] Worker exiting (pid: 2561)
+[2018-09-28 16:14:04 +0000] [2605] [INFO] Worker exiting (pid: 2605)
+[2018-09-28 11:14:04 -0500] [5631] [INFO] Booting worker with pid: 5631
+[2018-09-28 11:14:04 -0500] [1151] [DEBUG] 1 workers
+[2018-09-28 11:14:04 -0500] [5633] [INFO] Booting worker with pid: 5633
+[2018-09-28 11:14:04 -0500] [5636] [INFO] Booting worker with pid: 5636
+[2018-09-28 11:14:04 -0500] [1151] [DEBUG] 3 workers
+[2018-09-28 16:12:05 -0500] [1151] [CRITICAL] WORKER TIMEOUT (pid:5631)
+[2018-09-28 16:12:05 -0500] [1151] [CRITICAL] WORKER TIMEOUT (pid:5633)
+[2018-09-28 16:12:05 -0500] [1151] [CRITICAL] WORKER TIMEOUT (pid:5636)
+[2018-09-28 21:12:05 +0000] [5631] [INFO] Worker exiting (pid: 5631)
+[2018-09-28 21:12:05 +0000] [5633] [INFO] Worker exiting (pid: 5633)
+[2018-09-28 21:12:05 +0000] [5636] [INFO] Worker exiting (pid: 5636)
+[2018-09-28 16:12:05 -0500] [5709] [INFO] Booting worker with pid: 5709
+[2018-09-28 16:12:05 -0500] [1151] [DEBUG] 1 workers
+[2018-09-28 16:12:05 -0500] [5711] [INFO] Booting worker with pid: 5711
+[2018-09-28 16:12:05 -0500] [5713] [INFO] Booting worker with pid: 5713
+[2018-09-28 16:12:05 -0500] [1151] [DEBUG] 3 workers
+[2018-09-28 16:12:32 -0500] [1151] [INFO] Handling signal: term
+[2018-09-28 21:12:32 +0000] [5713] [INFO] Worker exiting (pid: 5713)
+[2018-09-28 21:12:32 +0000] [5711] [INFO] Worker exiting (pid: 5711)
+[2018-09-28 21:12:32 +0000] [5709] [INFO] Worker exiting (pid: 5709)
+[2018-09-28 16:12:32 -0500] [1151] [INFO] Shutting down: Master
+[2018-09-28 16:17:34 -0500] [1369] [DEBUG] Current configuration:
+  config: None
+  bind: ['unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  chdir: /home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1001
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: manager
+  default_proc_name: Auth_Server.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f65a973b378>
+  on_reload: <function OnReload.on_reload at 0x7f65a973b510>
+  when_ready: <function WhenReady.when_ready at 0x7f65a973b6a8>
+  pre_fork: <function Prefork.pre_fork at 0x7f65a973b840>
+  post_fork: <function Postfork.post_fork at 0x7f65a973b9d8>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f65a973bb70>
+  worker_int: <function WorkerInt.worker_int at 0x7f65a973bd08>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f65a973bea0>
+  pre_exec: <function PreExec.pre_exec at 0x7f65a97410d0>
+  pre_request: <function PreRequest.pre_request at 0x7f65a9741268>
+  post_request: <function PostRequest.post_request at 0x7f65a9741378>
+  child_exit: <function ChildExit.child_exit at 0x7f65a9741510>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f65a97416a8>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f65a9741840>
+  on_exit: <function OnExit.on_exit at 0x7f65a97419d8>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-09-28 16:17:34 -0500] [1369] [INFO] Starting gunicorn 19.7.1
+[2018-09-28 16:17:34 -0500] [1369] [DEBUG] Arbiter booted
+[2018-09-28 16:17:34 -0500] [1369] [INFO] Listening at: unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock (1369)
+[2018-09-28 16:17:34 -0500] [1369] [INFO] Using worker: sync
+[2018-09-28 16:17:34 -0500] [1412] [INFO] Booting worker with pid: 1412
+[2018-09-28 16:17:34 -0500] [1416] [INFO] Booting worker with pid: 1416
+[2018-09-28 16:17:34 -0500] [1418] [INFO] Booting worker with pid: 1418
+[2018-09-28 16:17:34 -0500] [1369] [DEBUG] 3 workers
+[2018-09-30 18:58:47 -0500] [1369] [CRITICAL] WORKER TIMEOUT (pid:1412)
+[2018-09-30 18:58:47 -0500] [1369] [CRITICAL] WORKER TIMEOUT (pid:1416)
+[2018-09-30 18:58:47 -0500] [1369] [CRITICAL] WORKER TIMEOUT (pid:1418)
+[2018-09-30 23:58:47 +0000] [1412] [INFO] Worker exiting (pid: 1412)
+[2018-09-30 23:58:47 +0000] [1416] [INFO] Worker exiting (pid: 1416)
+[2018-09-30 23:58:47 +0000] [1418] [INFO] Worker exiting (pid: 1418)
+[2018-09-30 18:58:47 -0500] [5118] [INFO] Booting worker with pid: 5118
+[2018-09-30 18:58:47 -0500] [1369] [DEBUG] 1 workers
+[2018-09-30 18:58:47 -0500] [5119] [INFO] Booting worker with pid: 5119
+[2018-09-30 18:58:47 -0500] [5123] [INFO] Booting worker with pid: 5123
+[2018-09-30 18:58:47 -0500] [1369] [DEBUG] 3 workers
+[2018-10-01 10:29:12 -0500] [1369] [CRITICAL] WORKER TIMEOUT (pid:5118)
+[2018-10-01 10:29:12 -0500] [1369] [CRITICAL] WORKER TIMEOUT (pid:5119)
+[2018-10-01 10:29:12 -0500] [1369] [CRITICAL] WORKER TIMEOUT (pid:5123)
+[2018-10-01 15:29:12 +0000] [5118] [INFO] Worker exiting (pid: 5118)
+[2018-10-01 15:29:12 +0000] [5119] [INFO] Worker exiting (pid: 5119)
+[2018-10-01 15:29:12 +0000] [5123] [INFO] Worker exiting (pid: 5123)
+[2018-10-01 10:29:12 -0500] [6795] [INFO] Booting worker with pid: 6795
+[2018-10-01 10:29:13 -0500] [1369] [DEBUG] 1 workers
+[2018-10-01 10:29:13 -0500] [6796] [INFO] Booting worker with pid: 6796
+[2018-10-01 10:29:13 -0500] [6798] [INFO] Booting worker with pid: 6798
+[2018-10-01 10:29:13 -0500] [1369] [DEBUG] 3 workers
+[2018-10-01 10:46:39 -0500] [1369] [INFO] Handling signal: term
+[2018-10-01 15:46:39 +0000] [6796] [INFO] Worker exiting (pid: 6796)
+[2018-10-01 15:46:39 +0000] [6798] [INFO] Worker exiting (pid: 6798)
+[2018-10-01 15:46:39 +0000] [6795] [INFO] Worker exiting (pid: 6795)
+[2018-10-01 10:46:39 -0500] [1369] [INFO] Shutting down: Master
+[2018-10-01 10:50:37 -0500] [1205] [DEBUG] Current configuration:
+  config: None
+  bind: ['unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  chdir: /home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1001
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: manager
+  default_proc_name: Auth_Server.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f8761ffd378>
+  on_reload: <function OnReload.on_reload at 0x7f8761ffd510>
+  when_ready: <function WhenReady.when_ready at 0x7f8761ffd6a8>
+  pre_fork: <function Prefork.pre_fork at 0x7f8761ffd840>
+  post_fork: <function Postfork.post_fork at 0x7f8761ffd9d8>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f8761ffdb70>
+  worker_int: <function WorkerInt.worker_int at 0x7f8761ffdd08>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f8761ffdea0>
+  pre_exec: <function PreExec.pre_exec at 0x7f87620030d0>
+  pre_request: <function PreRequest.pre_request at 0x7f8762003268>
+  post_request: <function PostRequest.post_request at 0x7f8762003378>
+  child_exit: <function ChildExit.child_exit at 0x7f8762003510>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f87620036a8>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f8762003840>
+  on_exit: <function OnExit.on_exit at 0x7f87620039d8>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-10-01 10:50:37 -0500] [1205] [INFO] Starting gunicorn 19.7.1
+[2018-10-01 10:50:37 -0500] [1205] [DEBUG] Arbiter booted
+[2018-10-01 10:50:37 -0500] [1205] [INFO] Listening at: unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock (1205)
+[2018-10-01 10:50:37 -0500] [1205] [INFO] Using worker: sync
+[2018-10-01 10:50:37 -0500] [1290] [INFO] Booting worker with pid: 1290
+[2018-10-01 10:50:38 -0500] [1291] [INFO] Booting worker with pid: 1291
+[2018-10-01 10:50:38 -0500] [1292] [INFO] Booting worker with pid: 1292
+[2018-10-01 10:50:38 -0500] [1205] [DEBUG] 3 workers
+[2018-10-01 17:56:47 -0500] [1205] [INFO] Handling signal: term
+[2018-10-01 22:56:47 +0000] [1291] [INFO] Worker exiting (pid: 1291)
+[2018-10-01 22:56:47 +0000] [1290] [INFO] Worker exiting (pid: 1290)
+[2018-10-01 22:56:47 +0000] [1292] [INFO] Worker exiting (pid: 1292)
+[2018-10-01 17:56:47 -0500] [1205] [INFO] Shutting down: Master
+[2018-10-01 21:25:20 -0500] [1300] [DEBUG] Current configuration:
+  config: None
+  bind: ['unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  chdir: /home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1001
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: manager
+  default_proc_name: Auth_Server.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f2ec8ab1378>
+  on_reload: <function OnReload.on_reload at 0x7f2ec8ab1510>
+  when_ready: <function WhenReady.when_ready at 0x7f2ec8ab16a8>
+  pre_fork: <function Prefork.pre_fork at 0x7f2ec8ab1840>
+  post_fork: <function Postfork.post_fork at 0x7f2ec8ab19d8>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f2ec8ab1b70>
+  worker_int: <function WorkerInt.worker_int at 0x7f2ec8ab1d08>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f2ec8ab1ea0>
+  pre_exec: <function PreExec.pre_exec at 0x7f2ec8ab70d0>
+  pre_request: <function PreRequest.pre_request at 0x7f2ec8ab7268>
+  post_request: <function PostRequest.post_request at 0x7f2ec8ab7378>
+  child_exit: <function ChildExit.child_exit at 0x7f2ec8ab7510>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f2ec8ab76a8>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f2ec8ab7840>
+  on_exit: <function OnExit.on_exit at 0x7f2ec8ab79d8>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-10-01 21:25:20 -0500] [1300] [INFO] Starting gunicorn 19.7.1
+[2018-10-01 21:25:20 -0500] [1300] [DEBUG] Arbiter booted
+[2018-10-01 21:25:20 -0500] [1300] [INFO] Listening at: unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock (1300)
+[2018-10-01 21:25:20 -0500] [1300] [INFO] Using worker: sync
+[2018-10-01 21:25:20 -0500] [1431] [INFO] Booting worker with pid: 1431
+[2018-10-01 21:25:20 -0500] [1432] [INFO] Booting worker with pid: 1432
+[2018-10-01 21:25:20 -0500] [1437] [INFO] Booting worker with pid: 1437
+[2018-10-01 21:25:20 -0500] [1300] [DEBUG] 3 workers
+[2018-10-02 05:41:28 -0500] [1300] [CRITICAL] WORKER TIMEOUT (pid:1431)
+[2018-10-02 05:41:28 -0500] [1300] [CRITICAL] WORKER TIMEOUT (pid:1432)
+[2018-10-02 05:41:28 -0500] [1300] [CRITICAL] WORKER TIMEOUT (pid:1437)
+[2018-10-02 10:41:28 +0000] [1432] [INFO] Worker exiting (pid: 1432)
+[2018-10-02 10:41:28 +0000] [1437] [INFO] Worker exiting (pid: 1437)
+[2018-10-02 10:41:28 +0000] [1431] [INFO] Worker exiting (pid: 1431)
+[2018-10-02 05:41:28 -0500] [4782] [INFO] Booting worker with pid: 4782
+[2018-10-02 05:41:28 -0500] [4784] [INFO] Booting worker with pid: 4784
+[2018-10-02 05:41:28 -0500] [1300] [DEBUG] 2 workers
+[2018-10-02 05:41:28 -0500] [4785] [INFO] Booting worker with pid: 4785
+[2018-10-02 05:41:28 -0500] [1300] [DEBUG] 3 workers
+[2018-10-02 09:11:48 -0500] [1300] [CRITICAL] WORKER TIMEOUT (pid:4782)
+[2018-10-02 09:11:48 -0500] [1300] [CRITICAL] WORKER TIMEOUT (pid:4784)
+[2018-10-02 09:11:48 -0500] [1300] [CRITICAL] WORKER TIMEOUT (pid:4785)
+[2018-10-02 14:11:48 +0000] [4782] [INFO] Worker exiting (pid: 4782)
+[2018-10-02 14:11:48 +0000] [4784] [INFO] Worker exiting (pid: 4784)
+[2018-10-02 14:11:48 +0000] [4785] [INFO] Worker exiting (pid: 4785)
+[2018-10-02 09:11:49 -0500] [5953] [INFO] Booting worker with pid: 5953
+[2018-10-02 09:11:49 -0500] [1300] [DEBUG] 1 workers
+[2018-10-02 09:11:49 -0500] [5955] [INFO] Booting worker with pid: 5955
+[2018-10-02 09:11:49 -0500] [5959] [INFO] Booting worker with pid: 5959
+[2018-10-02 09:11:49 -0500] [1300] [DEBUG] 3 workers
+[2018-10-02 09:14:59 -0500] [1300] [INFO] Handling signal: term
+[2018-10-02 14:14:59 +0000] [5953] [INFO] Worker exiting (pid: 5953)
+[2018-10-02 14:14:59 +0000] [5955] [INFO] Worker exiting (pid: 5955)
+[2018-10-02 14:14:59 +0000] [5959] [INFO] Worker exiting (pid: 5959)
+[2018-10-02 09:14:59 -0500] [1300] [INFO] Shutting down: Master
+[2018-10-02 09:16:00 -0500] [1170] [DEBUG] Current configuration:
+  config: None
+  bind: ['unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock']
+  backlog: 2048
+  workers: 3
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  chdir: /home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 1001
+  group: 1001
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: None
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: -
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  statsd_prefix: 
+  proc_name: manager
+  default_proc_name: Auth_Server.wsgi:application
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x7f8821fb8378>
+  on_reload: <function OnReload.on_reload at 0x7f8821fb8510>
+  when_ready: <function WhenReady.when_ready at 0x7f8821fb86a8>
+  pre_fork: <function Prefork.pre_fork at 0x7f8821fb8840>
+  post_fork: <function Postfork.post_fork at 0x7f8821fb89d8>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x7f8821fb8b70>
+  worker_int: <function WorkerInt.worker_int at 0x7f8821fb8d08>
+  worker_abort: <function WorkerAbort.worker_abort at 0x7f8821fb8ea0>
+  pre_exec: <function PreExec.pre_exec at 0x7f8821fbe0d0>
+  pre_request: <function PreRequest.pre_request at 0x7f8821fbe268>
+  post_request: <function PostRequest.post_request at 0x7f8821fbe378>
+  child_exit: <function ChildExit.child_exit at 0x7f8821fbe510>
+  worker_exit: <function WorkerExit.worker_exit at 0x7f8821fbe6a8>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x7f8821fbe840>
+  on_exit: <function OnExit.on_exit at 0x7f8821fbe9d8>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: TLSv1
+  raw_paste_global_conf: []
+[2018-10-02 09:16:00 -0500] [1170] [INFO] Starting gunicorn 19.7.1
+[2018-10-02 09:16:00 -0500] [1170] [DEBUG] Arbiter booted
+[2018-10-02 09:16:00 -0500] [1170] [INFO] Listening at: unix:/home/oscar/Documentos/APPs/deploy/INKARRI/Source/auth/gunicorn.sock (1170)
+[2018-10-02 09:16:00 -0500] [1170] [INFO] Using worker: sync
+[2018-10-02 09:16:00 -0500] [1246] [INFO] Booting worker with pid: 1246
+[2018-10-02 09:16:00 -0500] [1247] [INFO] Booting worker with pid: 1247
+[2018-10-02 09:16:00 -0500] [1248] [INFO] Booting worker with pid: 1248
+[2018-10-02 09:16:00 -0500] [1170] [DEBUG] 3 workers
